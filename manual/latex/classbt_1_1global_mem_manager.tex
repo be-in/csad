@@ -1,0 +1,44 @@
+\hypertarget{classbt_1_1global_mem_manager}{\section{bt\-:\-:global\-Mem\-Manager Class Reference}
+\label{classbt_1_1global_mem_manager}\index{bt\-::global\-Mem\-Manager@{bt\-::global\-Mem\-Manager}}
+}
+
+
+\hyperlink{classbt_1_1global_mem_manager}{global\-Mem\-Manager} -\/ общий менеджер памяти для локальной имгопоточной обработки данных.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classbt_1_1global_mem_manager_a2d6b5033c8ceeef3ee066eb93afd0a88}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classbt_1_1global_mem_manager_a2d6b5033c8ceeef3ee066eb93afd0a88}{\-\_\-olevel} ()}\label{classbt_1_1global_mem_manager_a2d6b5033c8ceeef3ee066eb93afd0a88}
+
+\begin{DoxyCompactList}\small\item\em текущий уровень выравнивания памяти \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_a19b71f34300486aa91ff77e8e6052728}{B\-T\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classbt_1_1global_mem_manager_a19b71f34300486aa91ff77e8e6052728}{cashalloc} (unsigned int size)}\label{classbt_1_1global_mem_manager_a19b71f34300486aa91ff77e8e6052728}
+
+\begin{DoxyCompactList}\small\item\em выделяет сегмент памяти стандартными средствами если сегмент запрашиваемого размера не обслужывается. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_ac2228912da3c31550de64e5041b08d6a}{B\-T\-\_\-\-A\-P\-I void \hyperlink{classbt_1_1global_mem_manager_ac2228912da3c31550de64e5041b08d6a}{cashfree} (void $\ast$val, unsigned int size)}\label{classbt_1_1global_mem_manager_ac2228912da3c31550de64e5041b08d6a}
+
+\begin{DoxyCompactList}\small\item\em освобождает сегмент памяти проверяя способ его выделения. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_af0177c70e18a7d037e3ba267228549f4}{B\-T\-\_\-\-A\-P\-I void \hyperlink{classbt_1_1global_mem_manager_af0177c70e18a7d037e3ba267228549f4}{free\-This} (void $\ast$val, unsigned int size)}\label{classbt_1_1global_mem_manager_af0177c70e18a7d037e3ba267228549f4}
+
+\begin{DoxyCompactList}\small\item\em освобождает сегмент быстрой памяти для повторного использования \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_a4235e4676192c6a7cecac4445531e8d5}{B\-T\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classbt_1_1global_mem_manager_a4235e4676192c6a7cecac4445531e8d5}{get\-New} (unsigned int size)}\label{classbt_1_1global_mem_manager_a4235e4676192c6a7cecac4445531e8d5}
+
+\begin{DoxyCompactList}\small\item\em выделяет сегмент быстрой памяти из имеющегося запаса \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_a8bd0d2d9786bdeea2b2f9ff5789b97ea}{B\-T\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classbt_1_1global_mem_manager_a8bd0d2d9786bdeea2b2f9ff5789b97ea}{get\-New\-Clean} (unsigned int size)}\label{classbt_1_1global_mem_manager_a8bd0d2d9786bdeea2b2f9ff5789b97ea}
+
+\begin{DoxyCompactList}\small\item\em выделяет сегмент быстрой памяти из имеющегося запаса \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1global_mem_manager_a50f8bcb40f4d7b9bb686506ec25a4716}{B\-T\-\_\-\-A\-P\-I void \hyperlink{classbt_1_1global_mem_manager_a50f8bcb40f4d7b9bb686506ec25a4716}{manage} ()}\label{classbt_1_1global_mem_manager_a50f8bcb40f4d7b9bb686506ec25a4716}
+
+\begin{DoxyCompactList}\small\item\em Обработчик многопоточных блокировок использования памяти \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classbt_1_1global_mem_manager}{global\-Mem\-Manager} -\/ общий менеджер памяти для локальной имгопоточной обработки данных. 
+
+Представляет из себя совокупность менеджеров управляющих разными объемами данных. В случае запроса блока памяти не обслуживаемой величины выделяется память стандартными средствами.
+
+Для использование в многопоточном режиме необходимо указать метод is\-Thread для идентификации потока. Чтобы упровлять паспределением блокировок памяти необходим дополнительный поток с обработкой методом manage.
+
+\begin{DoxySeeAlso}{See Also}
+
+\end{DoxySeeAlso}

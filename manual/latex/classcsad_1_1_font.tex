@@ -1,0 +1,95 @@
+\hypertarget{classcsad_1_1_font}{\section{csad\-:\-:Font Class Reference}
+\label{classcsad_1_1_font}\index{csad\-::\-Font@{csad\-::\-Font}}
+}
+
+
+\hyperlink{classcsad_1_1_font}{Font} -\/ The font object belongs to font server.  
+
+
+Inheritance diagram for csad\-:\-:Font\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcsad_1_1_font}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278}{Style} \{ \hyperlink{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ab78e8c4ad9b4d68b50564b907448da6f}{N\-O\-N\-E} =0, 
+\hyperlink{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278a78651b721318d08e8c454ce5163bb490}{B\-O\-L\-D} = 1, 
+\hyperlink{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ae0a0136bf3a895e6fd082a12aebc2976}{I\-T\-A\-L\-I\-C} = 2, 
+\hyperlink{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278af4744703dcad7752115abee438ff4afb}{U\-N\-D\-E\-R\-L\-I\-N\-E} = 4
+ \}
+\begin{DoxyCompactList}\small\item\em font style, can mix \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_font_a9d553674c4a9ef79bed298d6ce317c14}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I float \hyperlink{classcsad_1_1_font_a9d553674c4a9ef79bed298d6ce317c14}{add\-Out\-Line} (int x, int y, char simvol, Geometry\-Path2\-I $\ast$path)}\label{classcsad_1_1_font_a9d553674c4a9ef79bed298d6ce317c14}
+
+\begin{DoxyCompactList}\small\item\em Supplements geometry glyph of the specified character. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_ad97cd895f6afe64be19c7a9a18742347}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I const char $\ast$ \hyperlink{classcsad_1_1_font_ad97cd895f6afe64be19c7a9a18742347}{get\-Name} ()}\label{classcsad_1_1_font_ad97cd895f6afe64be19c7a9a18742347}
+
+\begin{DoxyCompactList}\small\item\em return font name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a2630256d9732a3b47b0526d17f5748d7}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I float \hyperlink{classcsad_1_1_font_a2630256d9732a3b47b0526d17f5748d7}{height} ()}\label{classcsad_1_1_font_a2630256d9732a3b47b0526d17f5748d7}
+
+\begin{DoxyCompactList}\small\item\em font height \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a17a01ec3279f4504bac8885a7437fdfc}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_a17a01ec3279f4504bac8885a7437fdfc}{raster\-Text} (void $\ast$raster, int x, int y, unsigned int color, int mode, char $\ast$text)}\label{classcsad_1_1_font_a17a01ec3279f4504bac8885a7437fdfc}
+
+\begin{DoxyCompactList}\small\item\em Creates a raster of the text. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a1e72b3d9af1d21f0c5042bfc6edec66f}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_font_a1e72b3d9af1d21f0c5042bfc6edec66f}{set} (unsigned \-\_\-int32 id, void $\ast$param)}\label{classcsad_1_1_font_a1e72b3d9af1d21f0c5042bfc6edec66f}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a10c9c756fc9fa5956b9466c9c15e9d13}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_a10c9c756fc9fa5956b9466c9c15e9d13}{set\-Bold} (bool val)}\label{classcsad_1_1_font_a10c9c756fc9fa5956b9466c9c15e9d13}
+
+\begin{DoxyCompactList}\small\item\em Sets the font style bold. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_afb80f95ef52ae2d3f8ab5efd7e57006b}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_afb80f95ef52ae2d3f8ab5efd7e57006b}{set\-Italic} (bool val)}\label{classcsad_1_1_font_afb80f95ef52ae2d3f8ab5efd7e57006b}
+
+\begin{DoxyCompactList}\small\item\em Sets the font style inclined. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a5e2ec165289b5e809936dde5d0913f16}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_a5e2ec165289b5e809936dde5d0913f16}{set\-Name} (char $\ast$name)}\label{classcsad_1_1_font_a5e2ec165289b5e809936dde5d0913f16}
+
+\begin{DoxyCompactList}\small\item\em Specifies the name of the font, for some platforms, you set the font file name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_ac1e1cc4a00300465b733911acacbed65}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_ac1e1cc4a00300465b733911acacbed65}{set\-Size} (int size)}\label{classcsad_1_1_font_ac1e1cc4a00300465b733911acacbed65}
+
+\begin{DoxyCompactList}\small\item\em specifies the font size \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a4ac8d96b47c91cf8edf047ddc819158b}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_a4ac8d96b47c91cf8edf047ddc819158b}{set\-Style} (int style)}\label{classcsad_1_1_font_a4ac8d96b47c91cf8edf047ddc819158b}
+
+\begin{DoxyCompactList}\small\item\em Sets the style of the font. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_a5bf4543b059c48b60c4c9b18afe6d7ca}{P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_font_a5bf4543b059c48b60c4c9b18afe6d7ca}{set\-Under\-Line} (bool val)}\label{classcsad_1_1_font_a5bf4543b059c48b60c4c9b18afe6d7ca}
+
+\begin{DoxyCompactList}\small\item\em Sets the font style underlined. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_font_aef48acccbb1dbf8c0334107293840b10}{virtual P\-L\-A\-T\-F\-O\-R\-M\-\_\-\-A\-P\-I float \hyperlink{classcsad_1_1_font_aef48acccbb1dbf8c0334107293840b10}{width} (char $\ast$text)}\label{classcsad_1_1_font_aef48acccbb1dbf8c0334107293840b10}
+
+\begin{DoxyCompactList}\small\item\em Long labels. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_font}{Font} -\/ The font object belongs to font server. 
+
+\begin{DoxyVerb}  <Font name="name" font="font name" size="size font"/>
+\end{DoxyVerb}
+ \begin{DoxySeeAlso}{See Also}
+\hyperlink{classcsad_1_1_font_server}{Font\-Server}, \hyperlink{group__platform}{csad\-: platform} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278}{\index{csad\-::\-Font@{csad\-::\-Font}!Style@{Style}}
+\index{Style@{Style}!csad::Font@{csad\-::\-Font}}
+\subsubsection[{Style}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf csad\-::\-Font\-::\-Style}}}\label{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278}
+
+
+font style, can mix 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{N\-O\-N\-E@{N\-O\-N\-E}!csad\-::\-Font@{csad\-::\-Font}}\index{csad\-::\-Font@{csad\-::\-Font}!N\-O\-N\-E@{N\-O\-N\-E}}\item[{\em 
+\hypertarget{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ab78e8c4ad9b4d68b50564b907448da6f}{N\-O\-N\-E}\label{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ab78e8c4ad9b4d68b50564b907448da6f}
+}]default \index{B\-O\-L\-D@{B\-O\-L\-D}!csad\-::\-Font@{csad\-::\-Font}}\index{csad\-::\-Font@{csad\-::\-Font}!B\-O\-L\-D@{B\-O\-L\-D}}\item[{\em 
+\hypertarget{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278a78651b721318d08e8c454ce5163bb490}{B\-O\-L\-D}\label{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278a78651b721318d08e8c454ce5163bb490}
+}]bold style \index{I\-T\-A\-L\-I\-C@{I\-T\-A\-L\-I\-C}!csad\-::\-Font@{csad\-::\-Font}}\index{csad\-::\-Font@{csad\-::\-Font}!I\-T\-A\-L\-I\-C@{I\-T\-A\-L\-I\-C}}\item[{\em 
+\hypertarget{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ae0a0136bf3a895e6fd082a12aebc2976}{I\-T\-A\-L\-I\-C}\label{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278ae0a0136bf3a895e6fd082a12aebc2976}
+}]italic style \index{U\-N\-D\-E\-R\-L\-I\-N\-E@{U\-N\-D\-E\-R\-L\-I\-N\-E}!csad\-::\-Font@{csad\-::\-Font}}\index{csad\-::\-Font@{csad\-::\-Font}!U\-N\-D\-E\-R\-L\-I\-N\-E@{U\-N\-D\-E\-R\-L\-I\-N\-E}}\item[{\em 
+\hypertarget{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278af4744703dcad7752115abee438ff4afb}{U\-N\-D\-E\-R\-L\-I\-N\-E}\label{classcsad_1_1_font_ae188d2f78967da23f4480c8c97ec7278af4744703dcad7752115abee438ff4afb}
+}]underline style \end{description}
+\end{Desc}

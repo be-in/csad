@@ -1,0 +1,43 @@
+\hypertarget{classcsad_1_1_style}{\section{csad\-:\-:Style Class Reference}
+\label{classcsad_1_1_style}\index{csad\-::\-Style@{csad\-::\-Style}}
+}
+
+
+\hyperlink{classcsad_1_1_style}{Style} -\/ container styles.  
+
+
+Inheritance diagram for csad\-:\-:Style\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcsad_1_1_style}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_style_abf5aa6a96ac8c40378b8acdafca4875a}{{\footnotesize template$<$typename T $>$ }\\\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T $\ast$ \hyperlink{classcsad_1_1_style_abf5aa6a96ac8c40378b8acdafca4875a}{get\-Component} ()}\label{classcsad_1_1_style_abf5aa6a96ac8c40378b8acdafca4875a}
+
+\begin{DoxyCompactList}\small\item\em Returns the component of the given type, if it is not in a container returns 0. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_style_a67ccaa9e84a17c49da5dec3b8c78c833}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_component}{Component} $\ast$ \hyperlink{classcsad_1_1_style_a67ccaa9e84a17c49da5dec3b8c78c833}{get\-Component} (void $\ast$t)}\label{classcsad_1_1_style_a67ccaa9e84a17c49da5dec3b8c78c833}
+
+\begin{DoxyCompactList}\small\item\em Returns the component of the given type, if it is not in a container returns 0. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_style_a97213ecf688a3ea39a8d931e3351b211}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_style_a97213ecf688a3ea39a8d931e3351b211}{set} (unsigned \-\_\-int32 id, void $\ast$param)}\label{classcsad_1_1_style_a97213ecf688a3ea39a8d931e3351b211}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_style}{Style} -\/ container styles. 
+
+Necessary to create the model of the parameter list. Not tied to a particular environment, allows you to store various components and their parameters for future use. Unlike the base of the container tied to the Manager graphics. You can use any set of components, which contains the necessary settings, which can be the same for a large number of objects. Changing the style settings after you install it in your object, may not always lead to a change of an object that requires a re-\/install of the style object.
+
+For description in the configuration\-: \begin{DoxyVerb}  <Style name="the name of the style">
+  ... components ...
+  </Style>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__core}{csad\-: core}, \hyperlink{classcsad_1_1_text_style}{Text\-Style}, \hyperlink{classcsad_1_1_s_g_button_style}{S\-G\-Button\-Style}, \hyperlink{classcsad_1_1_s_g_element_style}{S\-G\-Element\-Style} 
+\end{DoxySeeAlso}

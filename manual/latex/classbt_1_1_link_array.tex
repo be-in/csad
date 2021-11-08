@@ -1,0 +1,75 @@
+\hypertarget{classbt_1_1_link_array}{\section{bt\-:\-:Link\-Array$<$ T $>$ Class Template Reference}
+\label{classbt_1_1_link_array}\index{bt\-::\-Link\-Array$<$ T $>$@{bt\-::\-Link\-Array$<$ T $>$}}
+}
+
+
+\hyperlink{classbt_1_1_link_array}{Link\-Array} -\/ the interface of the segment to the memory of identical elements.  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classbt_1_1_link_array_1_1iterator}{iterator}
+\begin{DoxyCompactList}\small\item\em The object that abstracts a single interface access to the items in the collection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1_link_array_a1802ab66970e9ad9ab934acc5e391899}{Link\-Array} (void $\ast$\-\_\-from, unsigned int \-\_\-offset, unsigned int \-\_\-step, unsigned int $\ast$\-\_\-max)
+\item 
+\hypertarget{classbt_1_1_link_array_add85ea16f5d4e6cd0797c6d7ac547327}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1_link_array_1_1iterator}{iterator} \& \hyperlink{classbt_1_1_link_array_add85ea16f5d4e6cd0797c6d7ac547327}{begin} ()}\label{classbt_1_1_link_array_add85ea16f5d4e6cd0797c6d7ac547327}
+
+\begin{DoxyCompactList}\small\item\em Returns an iterator pointing to the first element in the sequence. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_a8dc1eea5b73b67867c02e471499af9a6}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classbt_1_1_link_array_a8dc1eea5b73b67867c02e471499af9a6}{count} ()}\label{classbt_1_1_link_array_a8dc1eea5b73b67867c02e471499af9a6}
+
+\begin{DoxyCompactList}\small\item\em Returns the number of elements of the real array. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_a54b989bfe91f7557bb2371f0c00dfeb0}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1_link_array_1_1iterator}{iterator} \& \hyperlink{classbt_1_1_link_array_a54b989bfe91f7557bb2371f0c00dfeb0}{end} ()}\label{classbt_1_1_link_array_a54b989bfe91f7557bb2371f0c00dfeb0}
+
+\begin{DoxyCompactList}\small\item\em Returns an iterator to the conditional end in the sequence. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_a57b057b3e5629db7b468b66e949d7ccd}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E char $\ast$ \hyperlink{classbt_1_1_link_array_a57b057b3e5629db7b468b66e949d7ccd}{get\-Array} ()}\label{classbt_1_1_link_array_a57b057b3e5629db7b468b66e949d7ccd}
+
+\begin{DoxyCompactList}\small\item\em returns an array (\-\_\-from+\-\_\-offset) \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_a551783a0731ed197dd84e836a5b70934}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classbt_1_1_link_array_a551783a0731ed197dd84e836a5b70934}{get\-Step} ()}\label{classbt_1_1_link_array_a551783a0731ed197dd84e836a5b70934}
+
+\begin{DoxyCompactList}\small\item\em returns the step \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_af8eccebe87e7f4e0c0fb3e49c3db5648}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classbt_1_1_link_array_af8eccebe87e7f4e0c0fb3e49c3db5648}{set\-Value} (unsigned int \-\_\-id, T \&\-\_\-val)}\label{classbt_1_1_link_array_af8eccebe87e7f4e0c0fb3e49c3db5648}
+
+\begin{DoxyCompactList}\small\item\em Sets the value of the array element. \end{DoxyCompactList}\item 
+\hypertarget{classbt_1_1_link_array_a9b0f2ad474e6bc679b1c44b83c884f69}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T \hyperlink{classbt_1_1_link_array_a9b0f2ad474e6bc679b1c44b83c884f69}{value} (unsigned int \-\_\-id)}\label{classbt_1_1_link_array_a9b0f2ad474e6bc679b1c44b83c884f69}
+
+\begin{DoxyCompactList}\small\item\em Returns the value of the array element. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$class bt\-::\-Link\-Array$<$ T $>$}
+
+\hyperlink{classbt_1_1_link_array}{Link\-Array} -\/ the interface of the segment to the memory of identical elements. 
+
+Interface for continuous chunk of memory, of identical elements arranged in \-\_\-from with an initial offset \-\_\-offset step \-\_\-step, the Maximum number of elements that is under the pointer $\ast$\-\_\-max.
+
+\begin{DoxySeeAlso}{See Also}
+
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classbt_1_1_link_array_a1802ab66970e9ad9ab934acc5e391899}{\index{bt\-::\-Link\-Array@{bt\-::\-Link\-Array}!Link\-Array@{Link\-Array}}
+\index{Link\-Array@{Link\-Array}!bt::LinkArray@{bt\-::\-Link\-Array}}
+\subsubsection[{Link\-Array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ \-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E {\bf bt\-::\-Link\-Array}$<$ T $>$\-::{\bf Link\-Array} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{\-\_\-from, }
+\item[{unsigned int}]{\-\_\-offset, }
+\item[{unsigned int}]{\-\_\-step, }
+\item[{unsigned int $\ast$}]{\-\_\-max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classbt_1_1_link_array_a1802ab66970e9ad9ab934acc5e391899}
+Конструктор 
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-from} & -\/ a pointer of array. \\
+\hline
+{\em \-\_\-offset} & -\/ additional offset (array=\-\_\-from+\-\_\-offset) \\
+\hline
+{\em \-\_\-step} & -\/ the number of bytes before the start of the new element. \\
+\hline
+{\em \-\_\-max} & -\/ a pointer to the parameter contains the number of elements in the array. \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,110 @@
+\hypertarget{classcsad_1_1_net_connection}{\section{csad\-:\-:Net\-Connection Class Reference}
+\label{classcsad_1_1_net_connection}\index{csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}}
+}
+
+
+\hyperlink{classcsad_1_1_net_connection}{Net\-Connection} -\/ network connection.  
+
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5}{Mode} \{ \hyperlink{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a47d79c745230e16a4402daabece4788b}{N\-C\-\_\-\-T\-C\-P}, 
+\hyperlink{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a9bc0746a60d6a49de4c09e67586ad7d9}{N\-C\-\_\-\-U\-D\-P}, 
+\hyperlink{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a67c9b49521cbc221e928764cf96dbf4d}{N\-C\-\_\-\-R\-A\-W}
+ \}
+\begin{DoxyCompactList}\small\item\em socket mode \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_net_connection_a5072b9dd2d289ce7b3654f0988fa1d21}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_net_connection_a5072b9dd2d289ce7b3654f0988fa1d21}{Net\-Connection} (char $\ast$)}\label{classcsad_1_1_net_connection_a5072b9dd2d289ce7b3654f0988fa1d21}
+
+\begin{DoxyCompactList}\small\item\em create connection \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_af5eb90166c8ba105b07159d6337a85e7}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_net_connection}{Net\-Connection} $\ast$ \hyperlink{classcsad_1_1_net_connection_af5eb90166c8ba105b07159d6337a85e7}{accept} (char $\ast$)}\label{classcsad_1_1_net_connection_af5eb90166c8ba105b07159d6337a85e7}
+
+\begin{DoxyCompactList}\small\item\em recive connection and create new \hyperlink{classcsad_1_1_net_connection}{Net\-Connection}. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_ab728f123450001d146cfd3599a0712d7}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned \-\_\-int32 \hyperlink{classcsad_1_1_net_connection_ab728f123450001d146cfd3599a0712d7}{addr} ()}\label{classcsad_1_1_net_connection_ab728f123450001d146cfd3599a0712d7}
+
+\begin{DoxyCompactList}\small\item\em return connection or last recv data addres. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_a6b9a1925025010ab14a739311174bb1f}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_net_connection_a6b9a1925025010ab14a739311174bb1f}{close} ()}\label{classcsad_1_1_net_connection_a6b9a1925025010ab14a739311174bb1f}
+
+\begin{DoxyCompactList}\small\item\em Close socket. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_ac1c3c64ca6d4811931a5fc430657d8f7}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_net_connection_ac1c3c64ca6d4811931a5fc430657d8f7}{connect} ()}\label{classcsad_1_1_net_connection_ac1c3c64ca6d4811931a5fc430657d8f7}
+
+\begin{DoxyCompactList}\small\item\em Connect. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_a66b082952ef88366496a30331f13c3a9}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_net_connection_a66b082952ef88366496a30331f13c3a9}{open} ()}\label{classcsad_1_1_net_connection_a66b082952ef88366496a30331f13c3a9}
+
+\begin{DoxyCompactList}\small\item\em Open socket. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_acb26734ada988518925467b18447d54e}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \-\_\-int32 \hyperlink{classcsad_1_1_net_connection_acb26734ada988518925467b18447d54e}{port} ()}\label{classcsad_1_1_net_connection_acb26734ada988518925467b18447d54e}
+
+\begin{DoxyCompactList}\small\item\em return connection port. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_aff8bdebec5c06a7667f196d25584ba9e}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E int \hyperlink{classcsad_1_1_net_connection_aff8bdebec5c06a7667f196d25584ba9e}{read} (void $\ast$data, unsigned int size)}\label{classcsad_1_1_net_connection_aff8bdebec5c06a7667f196d25584ba9e}
+
+\begin{DoxyCompactList}\small\item\em recive data \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_a29b59fc5dd401fff7f4cc5e898ba1bef}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_net_connection_a29b59fc5dd401fff7f4cc5e898ba1bef}{set\-Addr} (char a, char b, char c, char d)}\label{classcsad_1_1_net_connection_a29b59fc5dd401fff7f4cc5e898ba1bef}
+
+\begin{DoxyCompactList}\small\item\em set connection addres. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_a1c1000c61de1d3e97400eebbe7290726}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_net_connection_a1c1000c61de1d3e97400eebbe7290726}{set\-Mode} (unsigned int mode)}\label{classcsad_1_1_net_connection_a1c1000c61de1d3e97400eebbe7290726}
+
+\begin{DoxyCompactList}\small\item\em set connection mode \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_ac888de6d8682f77b9397baf4678064dd}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_net_connection_ac888de6d8682f77b9397baf4678064dd}{set\-Port} (\-\_\-int32 \hyperlink{classcsad_1_1_net_connection_acb26734ada988518925467b18447d54e}{port})}\label{classcsad_1_1_net_connection_ac888de6d8682f77b9397baf4678064dd}
+
+\begin{DoxyCompactList}\small\item\em set port connection, or for open listening \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_net_connection_a62442d45c39493be16ce3d5377aede73}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E int \hyperlink{classcsad_1_1_net_connection_a62442d45c39493be16ce3d5377aede73}{write} (void $\ast$data, unsigned int size)}\label{classcsad_1_1_net_connection_a62442d45c39493be16ce3d5377aede73}
+
+\begin{DoxyCompactList}\small\item\em send data \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_net_connection}{Net\-Connection} -\/ network connection. 
+
+For example U\-D\-P\-: \begin{DoxyVerb}  NetConnection connection;
+  connection.setMode(NC_UDP);
+  connection.setPort(2000);
+  connection.setAddr(0,0,0,0);
+  connection.open();
+  char data[256];
+  connection.write(data,256);
+  while (connection.read(data,256)==0);
+  unsigned _int32 recvAddr=connection.addr();
+  connection.setAddr(192,168,102,10);
+  while (connection.write(data,256)==0);
+  connection.close();
+\end{DoxyVerb}
+
+
+For example T\-C\-P client\-: \begin{DoxyVerb}  NetConnection connection;
+  connection.setMode(NC_TCP);
+  connection.setPort(2000);
+  connection.setAddr(192,168,102,20);
+  connection.connect();
+  char data[256];
+  connection.write(data,256);
+  connection.close();
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__platform}{csad\-: platform} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5}{\index{csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}!Mode@{Mode}}
+\index{Mode@{Mode}!csad::NetConnection@{csad\-::\-Net\-Connection}}
+\subsubsection[{Mode}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf csad\-::\-Net\-Connection\-::\-Mode}}}\label{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5}
+
+
+socket mode 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{N\-C\-\_\-\-T\-C\-P@{N\-C\-\_\-\-T\-C\-P}!csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}}\index{csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}!N\-C\-\_\-\-T\-C\-P@{N\-C\-\_\-\-T\-C\-P}}\item[{\em 
+\hypertarget{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a47d79c745230e16a4402daabece4788b}{N\-C\-\_\-\-T\-C\-P}\label{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a47d79c745230e16a4402daabece4788b}
+}]create T\-C\-P connection \index{N\-C\-\_\-\-U\-D\-P@{N\-C\-\_\-\-U\-D\-P}!csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}}\index{csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}!N\-C\-\_\-\-U\-D\-P@{N\-C\-\_\-\-U\-D\-P}}\item[{\em 
+\hypertarget{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a9bc0746a60d6a49de4c09e67586ad7d9}{N\-C\-\_\-\-U\-D\-P}\label{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a9bc0746a60d6a49de4c09e67586ad7d9}
+}]create U\-D\-P connection \index{N\-C\-\_\-\-R\-A\-W@{N\-C\-\_\-\-R\-A\-W}!csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}}\index{csad\-::\-Net\-Connection@{csad\-::\-Net\-Connection}!N\-C\-\_\-\-R\-A\-W@{N\-C\-\_\-\-R\-A\-W}}\item[{\em 
+\hypertarget{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a67c9b49521cbc221e928764cf96dbf4d}{N\-C\-\_\-\-R\-A\-W}\label{classcsad_1_1_net_connection_a3b8242f34d97fe051d6eab451b6db3b5a67c9b49521cbc221e928764cf96dbf4d}
+}]create R\-A\-W connection \end{description}
+\end{Desc}

@@ -1,0 +1,26 @@
+Прежде чем использовать методы базового функционала необходимо проинициализировать соответствующюю группу функций определенной для этого функцией. После чего методы группы будут доступны, если базовые инструкции используются в среде C\-S\-A\-D то такая инициализация выполнится при старте приложения или при использовании специфичных классов.
+
+Console example for Microsoft Visual Studio\-: \begin{DoxyVerb}  #include <bt.h>
+
+  int main(HINSTANCE hInst, HINSTANCE, LPSTR lpCmdLine, INT)
+  {
+     initFunc();
+     printf("log 2 : %f\n",flog2(100.14f));
+     return 0;
+  }
+\end{DoxyVerb}
+
+
+Console example for linux gnu c++ compiler\-: \begin{DoxyVerb}  #include <bt.h>
+
+  int main(int argc, char *argv[]) {
+     initFunc();
+     printf("log 2 : %f\n",flog2(100.14f));
+     return EXIT_SUCCESS;
+  }
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__apiinterface}{bt\-: api interface} 
+\end{DoxySeeAlso}

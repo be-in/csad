@@ -1,0 +1,83 @@
+\hypertarget{classcsad_1_1_renderer}{\section{csad\-:\-:Renderer Class Reference}
+\label{classcsad_1_1_renderer}\index{csad\-::\-Renderer@{csad\-::\-Renderer}}
+}
+
+
+\hyperlink{classcsad_1_1_renderer}{Renderer} -\/ class imaging using the active camera selected scene.  
+
+
+Inheritance diagram for csad\-:\-:Renderer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcsad_1_1_renderer}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538e}{M\-O\-D\-E\-S} \{ \\*
+\hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead80d7d6b6aa720dc4bd7c630d93b976c}{N\-O\-S\-O\-R\-T} = 0x00000000, 
+\hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eaab6c6e6b28cdb5e5e5406d48ae44bade}{N\-O} = 0x00000000, 
+\hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ea2e4ee71bce65ed333a87b7abc851713c}{Z\-U\-P} = 0x00000001, 
+\hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eab78079ebc6178ac578d3f4fa65307d18}{Z\-D\-O\-W\-N} = 0x00000002, 
+\\*
+\hyperlink{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead968921d8dd219f43c22fc612ef515b8}{T\-R\-E\-E} = 0x00000003
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_renderer_acd653a15f123687e861eecd85cf108e5}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_renderer_acd653a15f123687e861eecd85cf108e5}{active} ()}\label{classcsad_1_1_renderer_acd653a15f123687e861eecd85cf108e5}
+
+\begin{DoxyCompactList}\small\item\em State render action. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a8df6bef44d21868c4db3ca169dc43435}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_renderer_a8df6bef44d21868c4db3ca169dc43435}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_renderer_a8df6bef44d21868c4db3ca169dc43435}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a9b03a830548238e1c35ab33107d498aa}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_renderer_a9b03a830548238e1c35ab33107d498aa}{set\-Active} (bool)}\label{classcsad_1_1_renderer_a9b03a830548238e1c35ab33107d498aa}
+
+\begin{DoxyCompactList}\small\item\em Activate render. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a02aa5803dde3a7a95a042c70946c3a1a}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_renderer_a02aa5803dde3a7a95a042c70946c3a1a}{set\-Camera} (\hyperlink{classcsad_1_1_camera}{Camera} $\ast$camera)}\label{classcsad_1_1_renderer_a02aa5803dde3a7a95a042c70946c3a1a}
+
+\begin{DoxyCompactList}\small\item\em To install the active camera. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a798c23f5ea9a56e190813064fd6fda3c}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_renderer_a798c23f5ea9a56e190813064fd6fda3c}{set\-Context} (\hyperlink{classcsad_1_1_gl_context}{Gl\-Context} $\ast$context)}\label{classcsad_1_1_renderer_a798c23f5ea9a56e190813064fd6fda3c}
+
+\begin{DoxyCompactList}\small\item\em To set the display context. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a4199a9b69589509ca07cd4fac610b9d8}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_renderer_a4199a9b69589509ca07cd4fac610b9d8}{set\-Select\-Input} (char $\ast$path)}\label{classcsad_1_1_renderer_a4199a9b69589509ca07cd4fac610b9d8}
+
+\begin{DoxyCompactList}\small\item\em Sets the active input object. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_renderer_a2b5fbf850e819cce1ce74e3e8b7de89f}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_renderer_a2b5fbf850e819cce1ce74e3e8b7de89f}{set\-Sort} (unsigned int mode)}\label{classcsad_1_1_renderer_a2b5fbf850e819cce1ce74e3e8b7de89f}
+
+\begin{DoxyCompactList}\small\item\em sort mode \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_renderer}{Renderer} -\/ class imaging using the active camera selected scene. 
+
+For description in the configuration\-: \begin{DoxyVerb}  <Renderer name="the name of the scene" order="step of rendering" camera="camera name" context="device context name" input="input device" sort="sort mode"/>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__scene}{csad\-: scene} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538e}{\index{csad\-::\-Renderer@{csad\-::\-Renderer}!M\-O\-D\-E\-S@{M\-O\-D\-E\-S}}
+\index{M\-O\-D\-E\-S@{M\-O\-D\-E\-S}!csad::Renderer@{csad\-::\-Renderer}}
+\subsubsection[{M\-O\-D\-E\-S}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf csad\-::\-Renderer\-::\-M\-O\-D\-E\-S}}}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538e}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{N\-O\-S\-O\-R\-T@{N\-O\-S\-O\-R\-T}!csad\-::\-Renderer@{csad\-::\-Renderer}}\index{csad\-::\-Renderer@{csad\-::\-Renderer}!N\-O\-S\-O\-R\-T@{N\-O\-S\-O\-R\-T}}\item[{\em 
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead80d7d6b6aa720dc4bd7c630d93b976c}{N\-O\-S\-O\-R\-T}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead80d7d6b6aa720dc4bd7c630d93b976c}
+}]without sorting \index{N\-O@{N\-O}!csad\-::\-Renderer@{csad\-::\-Renderer}}\index{csad\-::\-Renderer@{csad\-::\-Renderer}!N\-O@{N\-O}}\item[{\em 
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eaab6c6e6b28cdb5e5e5406d48ae44bade}{N\-O}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eaab6c6e6b28cdb5e5e5406d48ae44bade}
+}]without sorting \index{Z\-U\-P@{Z\-U\-P}!csad\-::\-Renderer@{csad\-::\-Renderer}}\index{csad\-::\-Renderer@{csad\-::\-Renderer}!Z\-U\-P@{Z\-U\-P}}\item[{\em 
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ea2e4ee71bce65ed333a87b7abc851713c}{Z\-U\-P}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ea2e4ee71bce65ed333a87b7abc851713c}
+}]sorting objects before drawing the first nearest \index{Z\-D\-O\-W\-N@{Z\-D\-O\-W\-N}!csad\-::\-Renderer@{csad\-::\-Renderer}}\index{csad\-::\-Renderer@{csad\-::\-Renderer}!Z\-D\-O\-W\-N@{Z\-D\-O\-W\-N}}\item[{\em 
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eab78079ebc6178ac578d3f4fa65307d18}{Z\-D\-O\-W\-N}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538eab78079ebc6178ac578d3f4fa65307d18}
+}]sorting objects before drawing the first far \index{T\-R\-E\-E@{T\-R\-E\-E}!csad\-::\-Renderer@{csad\-::\-Renderer}}\index{csad\-::\-Renderer@{csad\-::\-Renderer}!T\-R\-E\-E@{T\-R\-E\-E}}\item[{\em 
+\hypertarget{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead968921d8dd219f43c22fc612ef515b8}{T\-R\-E\-E}\label{classcsad_1_1_renderer_a112fd7f69525df52f65b47a62975538ead968921d8dd219f43c22fc612ef515b8}
+}]sorting objects before drawing the first parent \end{description}
+\end{Desc}

@@ -1,0 +1,97 @@
+\hypertarget{classcsad_1_1_light}{\section{csad\-:\-:Light Class Reference}
+\label{classcsad_1_1_light}\index{csad\-::\-Light@{csad\-::\-Light}}
+}
+
+
+\hyperlink{classcsad_1_1_light}{Light} -\/ компонент определяющий источник света.  
+
+
+Inheritance diagram for csad\-:\-:Light\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classcsad_1_1_light}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9}{Mode} \{ \hyperlink{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a8869086b492b505de0a5ff65dfc79855}{Spot}, 
+\hyperlink{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a88b7d47bf52492997dd86c1b1db7e34d}{Point}, 
+\hyperlink{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a16c2d7e0e3d4f1609cb948b99d0ff72e}{Direct}
+ \}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classcsad_1_1_light}{Light} mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_light_add5b8529c6d817ca14c9755ceaac6431}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector4f}{bt\-::vector4f} \& \hyperlink{classcsad_1_1_light_add5b8529c6d817ca14c9755ceaac6431}{ambient} ()}\label{classcsad_1_1_light_add5b8529c6d817ca14c9755ceaac6431}
+
+\begin{DoxyCompactList}\small\item\em Ambient color. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a9ec793f32b7e8a68f192c42e5289f7af}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E float \hyperlink{classcsad_1_1_light_a9ec793f32b7e8a68f192c42e5289f7af}{cutoff} ()}\label{classcsad_1_1_light_a9ec793f32b7e8a68f192c42e5289f7af}
+
+\begin{DoxyCompactList}\small\item\em Return spot angle. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a795de37f7b9287238560687ba3e37d62}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector4f}{bt\-::vector4f} \& \hyperlink{classcsad_1_1_light_a795de37f7b9287238560687ba3e37d62}{diffuse} ()}\label{classcsad_1_1_light_a795de37f7b9287238560687ba3e37d62}
+
+\begin{DoxyCompactList}\small\item\em Diffuse color. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_ac0360f1db06e5f1027a0a42d8b9e7ac1}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector3f}{vector3f} \& \hyperlink{classcsad_1_1_light_ac0360f1db06e5f1027a0a42d8b9e7ac1}{direction} ()}\label{classcsad_1_1_light_ac0360f1db06e5f1027a0a42d8b9e7ac1}
+
+\begin{DoxyCompactList}\small\item\em Return light direction. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}{mode} ()}\label{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}
+
+\begin{DoxyCompactList}\small\item\em Return light mode. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a907bb4b27c9793e11ed5900bc6494680}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_light_a907bb4b27c9793e11ed5900bc6494680}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_light_a907bb4b27c9793e11ed5900bc6494680}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a2122141dc16723e2cb41f304e07fd825}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_light_a2122141dc16723e2cb41f304e07fd825}{set\-Cutoff} (float val)}\label{classcsad_1_1_light_a2122141dc16723e2cb41f304e07fd825}
+
+\begin{DoxyCompactList}\small\item\em Set spot angle. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a84be595e475849367973298993ba5a1b}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_light_a84be595e475849367973298993ba5a1b}{set\-Direction} (\hyperlink{classbt_1_1vector3f}{vector3f} $\ast$dir)}\label{classcsad_1_1_light_a84be595e475849367973298993ba5a1b}
+
+\begin{DoxyCompactList}\small\item\em Set light direction. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_ac499ecad2c29f85e08f5b0b14de9014c}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_light_ac499ecad2c29f85e08f5b0b14de9014c}{set\-Mode} (unsigned int \hyperlink{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}{mode})}\label{classcsad_1_1_light_ac499ecad2c29f85e08f5b0b14de9014c}
+
+\begin{DoxyCompactList}\small\item\em Define light mode. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a6f2415fd8966df1ec467ba7595cec08e}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_light_a6f2415fd8966df1ec467ba7595cec08e}{set\-Mode} (char $\ast$\hyperlink{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}{mode})}\label{classcsad_1_1_light_a6f2415fd8966df1ec467ba7595cec08e}
+
+\begin{DoxyCompactList}\small\item\em Define light mode. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a7df301de1fa1a05fa2e98751cdf6db2a}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_light_a7df301de1fa1a05fa2e98751cdf6db2a}{set\-Mode} (const char $\ast$\hyperlink{classcsad_1_1_light_a4fc5e4e222d852a082cb32dddcab3c8b}{mode})}\label{classcsad_1_1_light_a7df301de1fa1a05fa2e98751cdf6db2a}
+
+\begin{DoxyCompactList}\small\item\em Define light mode. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_light_a51da73272c28947c6367c8e1f0f7a4d3}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector4f}{bt\-::vector4f} \& \hyperlink{classcsad_1_1_light_a51da73272c28947c6367c8e1f0f7a4d3}{specular} ()}\label{classcsad_1_1_light_a51da73272c28947c6367c8e1f0f7a4d3}
+
+\begin{DoxyCompactList}\small\item\em Specular color. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_light}{Light} -\/ компонент определяющий источник света. 
+
+For description in the configuration\-: \begin{DoxyVerb}  <Transform>
+     <Light mode="режим" direction="направление"/>
+  </Transform>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classcsad_1_1_transform}{Transform}, \hyperlink{group__scene}{csad\-: scene} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9}{\index{csad\-::\-Light@{csad\-::\-Light}!Mode@{Mode}}
+\index{Mode@{Mode}!csad::Light@{csad\-::\-Light}}
+\subsubsection[{Mode}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf csad\-::\-Light\-::\-Mode}}}\label{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9}
+
+
+\hyperlink{classcsad_1_1_light}{Light} mode. 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Spot@{Spot}!csad\-::\-Light@{csad\-::\-Light}}\index{csad\-::\-Light@{csad\-::\-Light}!Spot@{Spot}}\item[{\em 
+\hypertarget{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a8869086b492b505de0a5ff65dfc79855}{Spot}\label{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a8869086b492b505de0a5ff65dfc79855}
+}]Ranged light from point. \index{Point@{Point}!csad\-::\-Light@{csad\-::\-Light}}\index{csad\-::\-Light@{csad\-::\-Light}!Point@{Point}}\item[{\em 
+\hypertarget{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a88b7d47bf52492997dd86c1b1db7e34d}{Point}\label{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a88b7d47bf52492997dd86c1b1db7e34d}
+}]\hyperlink{classcsad_1_1_light}{Light} from point. \index{Direct@{Direct}!csad\-::\-Light@{csad\-::\-Light}}\index{csad\-::\-Light@{csad\-::\-Light}!Direct@{Direct}}\item[{\em 
+\hypertarget{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a16c2d7e0e3d4f1609cb948b99d0ff72e}{Direct}\label{classcsad_1_1_light_a00ff745cbb2a56fa7920b53acc068bf9a16c2d7e0e3d4f1609cb948b99d0ff72e}
+}]Linear light. \end{description}
+\end{Desc}

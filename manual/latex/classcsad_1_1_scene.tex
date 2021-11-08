@@ -1,0 +1,79 @@
+\hypertarget{classcsad_1_1_scene}{\section{csad\-:\-:Scene Class Reference}
+\label{classcsad_1_1_scene}\index{csad\-::\-Scene@{csad\-::\-Scene}}
+}
+
+
+\hyperlink{classcsad_1_1_scene}{Scene} -\/ environment objects that belongs to the Manager \hyperlink{classcsad_1_1_graph}{Graph}.  
+
+
+Inheritance diagram for csad\-:\-:Scene\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcsad_1_1_scene}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_scene_a10eb8937e7d0ad94681ed9eaa2b8d16c}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_scene_a10eb8937e7d0ad94681ed9eaa2b8d16c}{active} ()}\label{classcsad_1_1_scene_a10eb8937e7d0ad94681ed9eaa2b8d16c}
+
+\begin{DoxyCompactList}\small\item\em State of action events. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_aa9b6f21487e82e009d8dd387f238607a}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} $\ast$ \hyperlink{classcsad_1_1_scene_aa9b6f21487e82e009d8dd387f238607a}{create\-Camera} (char $\ast$name, \hyperlink{classcsad_1_1_transform}{Transform} $\ast$parent=0)}\label{classcsad_1_1_scene_aa9b6f21487e82e009d8dd387f238607a}
+
+\begin{DoxyCompactList}\small\item\em creates the camera object, and returns it to the component. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a904bf3332f4aea7dd4fd62b446309c9a}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} $\ast$ \hyperlink{classcsad_1_1_scene_a904bf3332f4aea7dd4fd62b446309c9a}{create\-Camera} (const char $\ast$name=\char`\"{}\char`\"{}, \hyperlink{classcsad_1_1_transform}{Transform} $\ast$parent=0)}\label{classcsad_1_1_scene_a904bf3332f4aea7dd4fd62b446309c9a}
+
+\begin{DoxyCompactList}\small\item\em creates the camera object, and returns it to the component, with out of name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_ae1c3f28c9d411628e3b619d0aa04e7be}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_scene_ae1c3f28c9d411628e3b619d0aa04e7be}{create\-Transform} (char $\ast$name, \hyperlink{classcsad_1_1_transform}{Transform} $\ast$parent=0)}\label{classcsad_1_1_scene_ae1c3f28c9d411628e3b619d0aa04e7be}
+
+\begin{DoxyCompactList}\small\item\em creates the object position. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a78ce909788631685692501979b0e46bd}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_scene_a78ce909788631685692501979b0e46bd}{create\-Transform} (const char $\ast$name=\char`\"{}\char`\"{}, \hyperlink{classcsad_1_1_transform}{Transform} $\ast$parent=0)}\label{classcsad_1_1_scene_a78ce909788631685692501979b0e46bd}
+
+\begin{DoxyCompactList}\small\item\em creates the object position, with out of name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a48c5a40cad1ba71ae8400b621917a4d5}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_scene_a48c5a40cad1ba71ae8400b621917a4d5}{detach\-Object} (\hyperlink{classcsad_1_1_transform}{Transform} $\ast$transform)}\label{classcsad_1_1_scene_a48c5a40cad1ba71ae8400b621917a4d5}
+
+\begin{DoxyCompactList}\small\item\em detach current object position. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a816697937e32ba2a52d23ff641ee94c3}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} $\ast$ \hyperlink{classcsad_1_1_scene_a816697937e32ba2a52d23ff641ee94c3}{get\-Camera} (char $\ast$name)}\label{classcsad_1_1_scene_a816697937e32ba2a52d23ff641ee94c3}
+
+\begin{DoxyCompactList}\small\item\em returns the camera component. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a3f600e717cfb1a27201f9b86b7e9c5c3}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1_map_name}{Objects\-List} \& \hyperlink{classcsad_1_1_scene_a3f600e717cfb1a27201f9b86b7e9c5c3}{get\-Map\-Objects} ()}\label{classcsad_1_1_scene_a3f600e717cfb1a27201f9b86b7e9c5c3}
+
+\begin{DoxyCompactList}\small\item\em returns a named list of objects. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a1c83dad87a993877e9f083a64904626a}{C\-S\-A\-D\-\_\-\-A\-P\-I const char $\ast$ \hyperlink{classcsad_1_1_scene_a1c83dad87a993877e9f083a64904626a}{get\-Name} ()}\label{classcsad_1_1_scene_a1c83dad87a993877e9f083a64904626a}
+
+\begin{DoxyCompactList}\small\item\em return scene name \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a3986aa8cd7601b486511a50d412b7499}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_scene_a3986aa8cd7601b486511a50d412b7499}{get\-Root} ()}\label{classcsad_1_1_scene_a3986aa8cd7601b486511a50d412b7499}
+
+\begin{DoxyCompactList}\small\item\em returns the root object. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a369a702aaa81d4456d065fed75dc10a1}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_scene_a369a702aaa81d4456d065fed75dc10a1}{get\-Transform} (char $\ast$name)}\label{classcsad_1_1_scene_a369a702aaa81d4456d065fed75dc10a1}
+
+\begin{DoxyCompactList}\small\item\em restores the dependent object by name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_a400941902309674ff39dcf495555f7a6}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_scene_a400941902309674ff39dcf495555f7a6}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_scene_a400941902309674ff39dcf495555f7a6}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_scene_af7b981c31cdb952850600a7e08a9d643}{C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_scene_af7b981c31cdb952850600a7e08a9d643}{set\-Active} (bool)}\label{classcsad_1_1_scene_af7b981c31cdb952850600a7e08a9d643}
+
+\begin{DoxyCompactList}\small\item\em Activate scene in events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_scene_abe6a8e0770c95d3865be7b0f120d664a}{static \hyperlink{classcsad_1_1_scene}{Scene} $\ast$ \hyperlink{classcsad_1_1_scene_abe6a8e0770c95d3865be7b0f120d664a}{get\-Default} ()}\label{classcsad_1_1_scene_abe6a8e0770c95d3865be7b0f120d664a}
+
+\begin{DoxyCompactList}\small\item\em the active scene \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_scene}{Scene} -\/ environment objects that belongs to the Manager \hyperlink{classcsad_1_1_graph}{Graph}. 
+
+The hierarchical model consisting of objects \hyperlink{classcsad_1_1_transform}{Transform}.
+
+For description in the configuration\-: \begin{DoxyVerb}  <Scene name="the name of the scene">
+  ... internal objects ...
+  </Scene>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classcsad_1_1_graph}{Graph}, \hyperlink{group__scene}{csad\-: scene}. 
+\end{DoxySeeAlso}

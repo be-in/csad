@@ -1,0 +1,60 @@
+\hypertarget{classcsad_1_1_class_manager}{\section{csad\-:\-:Class\-Manager Class Reference}
+\label{classcsad_1_1_class_manager}\index{csad\-::\-Class\-Manager@{csad\-::\-Class\-Manager}}
+}
+
+
+\hyperlink{classcsad_1_1_class_manager}{Class\-Manager} -\/ the Manager interface classes.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_class_manager_a1b672a9bc1ce34daf388e278e4a877a0}{virtual void \hyperlink{classcsad_1_1_class_manager_a1b672a9bc1ce34daf388e278e4a877a0}{add\-Const} (const char $\ast$name, int c)=0}\label{classcsad_1_1_class_manager_a1b672a9bc1ce34daf388e278e4a877a0}
+
+\begin{DoxyCompactList}\small\item\em Assigns the name of the constant value. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_class_manager_a60cb905c7bb8ffa55d7bdffcc6cf2bb1}{virtual const char $\ast$ \hyperlink{classcsad_1_1_class_manager_a60cb905c7bb8ffa55d7bdffcc6cf2bb1}{class\-Name} (void $\ast$type)=0}\label{classcsad_1_1_class_manager_a60cb905c7bb8ffa55d7bdffcc6cf2bb1}
+
+\begin{DoxyCompactList}\small\item\em Returns the name of the specified type. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_class_manager_a7d52ba64630bd18ddecc08779c0a9d32}{virtual \hyperlink{classcsad_1_1_base_object}{Base\-Object} $\ast$ \hyperlink{classcsad_1_1_class_manager_a7d52ba64630bd18ddecc08779c0a9d32}{create\-Object} (char $\ast$\hyperlink{classcsad_1_1_class_manager_a60cb905c7bb8ffa55d7bdffcc6cf2bb1}{class\-Name}, \hyperlink{classbt_1_1_parameters_list}{Parameters\-List} $\ast$list)=0}\label{classcsad_1_1_class_manager_a7d52ba64630bd18ddecc08779c0a9d32}
+
+\begin{DoxyCompactList}\small\item\em Creates object of the specified class and passes the parameter list. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_class_manager_ae20b1020a033cca51cd5c65b9af65709}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_base_object}{Base\-Object} $\ast$ \hyperlink{classcsad_1_1_class_manager_ae20b1020a033cca51cd5c65b9af65709}{create\-Object} (const char $\ast$\hyperlink{classcsad_1_1_class_manager_a60cb905c7bb8ffa55d7bdffcc6cf2bb1}{class\-Name}, \hyperlink{classbt_1_1_parameters_list}{Parameters\-List} $\ast$list)}\label{classcsad_1_1_class_manager_ae20b1020a033cca51cd5c65b9af65709}
+
+\begin{DoxyCompactList}\small\item\em Creates object of the specified class and passes the parameter list. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_class_manager_a19ed7fb2c1775b5b5b69c65d4ad98a30}{virtual int \hyperlink{classcsad_1_1_class_manager_a19ed7fb2c1775b5b5b69c65d4ad98a30}{get\-Const} (char $\ast$name)=0}\label{classcsad_1_1_class_manager_a19ed7fb2c1775b5b5b69c65d4ad98a30}
+
+\begin{DoxyCompactList}\small\item\em Returns a constant value of its name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_class_manager_a99c542560743638f818f8cf3298fa51c}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E int \hyperlink{classcsad_1_1_class_manager_a99c542560743638f818f8cf3298fa51c}{get\-Const} (const char $\ast$name)}\label{classcsad_1_1_class_manager_a99c542560743638f818f8cf3298fa51c}
+
+\begin{DoxyCompactList}\small\item\em Returns a constant value of its name. \end{DoxyCompactList}\item 
+virtual Object\-Info $\ast$ \hyperlink{classcsad_1_1_class_manager_a6dbd4e3a0717199a827ca874f631723b}{reg\-Class} (char $\ast$class\-Nam, void $\ast$type, tf\-S\-T\-D\-C\-A\-L\-L\-\_\-p\-\_\-\-F\-U\-N\-C\-\_\-p creator)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_class_manager}{Class\-Manager} -\/ the Manager interface classes. 
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__core}{csad\-: core} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcsad_1_1_class_manager_a6dbd4e3a0717199a827ca874f631723b}{\index{csad\-::\-Class\-Manager@{csad\-::\-Class\-Manager}!reg\-Class@{reg\-Class}}
+\index{reg\-Class@{reg\-Class}!csad::ClassManager@{csad\-::\-Class\-Manager}}
+\subsubsection[{reg\-Class}]{\setlength{\rightskip}{0pt plus 5cm}virtual Object\-Info$\ast$ csad\-::\-Class\-Manager\-::reg\-Class (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{class\-Nam, }
+\item[{void $\ast$}]{type, }
+\item[{tf\-S\-T\-D\-C\-A\-L\-L\-\_\-p\-\_\-\-F\-U\-N\-C\-\_\-p}]{creator}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_class_manager_a6dbd4e3a0717199a827ca874f631723b}
+register class 
+\begin{DoxyParams}{Parameters}
+{\em class\-Nam} & -\/ the class name \\
+\hline
+{\em type} & -\/ type of class \\
+\hline
+{\em creator} & -\/ the method contains the algorithm object creation \\
+\hline
+\end{DoxyParams}

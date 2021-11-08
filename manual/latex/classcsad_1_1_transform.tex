@@ -1,0 +1,217 @@
+\hypertarget{classcsad_1_1_transform}{\section{csad\-:\-:Transform Class Reference}
+\label{classcsad_1_1_transform}\index{csad\-::\-Transform@{csad\-::\-Transform}}
+}
+
+
+\hyperlink{classcsad_1_1_transform}{Transform} -\/ a key element of the environment specifies the position of the object.  
+
+
+Inheritance diagram for csad\-:\-:Transform\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcsad_1_1_transform}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_transform_af9ec56591d43d2e55e7c9ba3587cea14}{virtual void \hyperlink{classcsad_1_1_transform_af9ec56591d43d2e55e7c9ba3587cea14}{add\-Child} (\hyperlink{classcsad_1_1_transform}{Transform} $\ast$)=0}\label{classcsad_1_1_transform_af9ec56591d43d2e55e7c9ba3587cea14}
+
+\begin{DoxyCompactList}\small\item\em insert transform to child list. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a7fa7d1d5f5ab54cc4574cda8a68fa003}{{\footnotesize template$<$typename T $>$ }\\M\-E\-M\-N\-U\-L\-L \-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T $\ast$ \hyperlink{classcsad_1_1_transform_a7fa7d1d5f5ab54cc4574cda8a68fa003}{add\-Component} ()}\label{classcsad_1_1_transform_a7fa7d1d5f5ab54cc4574cda8a68fa003}
+
+\begin{DoxyCompactList}\small\item\em Adds the component of the specified type in the container if this component already exists, returns available. \end{DoxyCompactList}\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_transform_acc5f53fea600a3a528dfd2b92eb941ab}{Child} (int id)=0
+\item 
+\hypertarget{classcsad_1_1_transform_a63391ebbf1ad110f5f04c3df85eaa4b7}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classcsad_1_1_transform_a63391ebbf1ad110f5f04c3df85eaa4b7}{Child\-Count} ()}\label{classcsad_1_1_transform_a63391ebbf1ad110f5f04c3df85eaa4b7}
+
+\begin{DoxyCompactList}\small\item\em returns number of dependent objects. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a9655cfd6b41096dcb4fc684d64f68be8}{\hyperlink{classbt_1_1_sort_void_vector}{Transform\-List} \& \hyperlink{classcsad_1_1_transform_a9655cfd6b41096dcb4fc684d64f68be8}{children} ()}\label{classcsad_1_1_transform_a9655cfd6b41096dcb4fc684d64f68be8}
+
+\begin{DoxyCompactList}\small\item\em the list of dependent objects. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a6451c94d7824dc6698025e3d133eb2e0}{virtual \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_transform_a6451c94d7824dc6698025e3d133eb2e0}{create\-Transform} (char $\ast$name)=0}\label{classcsad_1_1_transform_a6451c94d7824dc6698025e3d133eb2e0}
+
+\begin{DoxyCompactList}\small\item\em creates a dependent object. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a01d84357317f0b6e21bcc46e49945766}{virtual void \hyperlink{classcsad_1_1_transform_a01d84357317f0b6e21bcc46e49945766}{delete\-Childs} ()=0}\label{classcsad_1_1_transform_a01d84357317f0b6e21bcc46e49945766}
+
+\begin{DoxyCompactList}\small\item\em delete all childs. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a2b87024c697a4c9ac79a30359799fd45}{virtual void \hyperlink{classcsad_1_1_transform_a2b87024c697a4c9ac79a30359799fd45}{detach\-Child} (\hyperlink{classcsad_1_1_transform}{Transform} $\ast$child)=0}\label{classcsad_1_1_transform_a2b87024c697a4c9ac79a30359799fd45}
+
+\begin{DoxyCompactList}\small\item\em remove transform from child list. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a9e830ddc111afbc7c99b30a228601e6c}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_scene}{Scene} $\ast$ \hyperlink{classcsad_1_1_transform_a9e830ddc111afbc7c99b30a228601e6c}{get\-Scene} ()}\label{classcsad_1_1_transform_a9e830ddc111afbc7c99b30a228601e6c}
+
+\begin{DoxyCompactList}\small\item\em returns the scene to which an object belongs. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a2b0acd6ec11c72f62332ec9b23be784d}{virtual \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_transform_a2b0acd6ec11c72f62332ec9b23be784d}{get\-Transform} (char $\ast$name)=0}\label{classcsad_1_1_transform_a2b0acd6ec11c72f62332ec9b23be784d}
+
+\begin{DoxyCompactList}\small\item\em restores the dependent object by name. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_ab16040e7ea09b85857c7c8974cb8d234}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_transform}{Transform} $\ast$ \hyperlink{classcsad_1_1_transform_ab16040e7ea09b85857c7c8974cb8d234}{parent} ()}\label{classcsad_1_1_transform_ab16040e7ea09b85857c7c8974cb8d234}
+
+\begin{DoxyCompactList}\small\item\em returns the parent object. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a9724286b8e4dce45c3e645a1a20fb9bd}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector3d}{vector3d} $\ast$ \hyperlink{classcsad_1_1_transform_a9724286b8e4dce45c3e645a1a20fb9bd}{real\-Position} ()}\label{classcsad_1_1_transform_a9724286b8e4dce45c3e645a1a20fb9bd}
+
+\begin{DoxyCompactList}\small\item\em returns the actual position of the object \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a3e01bf3696fe5e7387ab989e3a462258}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1quaterniond}{quaterniond} $\ast$ \hyperlink{classcsad_1_1_transform_a3e01bf3696fe5e7387ab989e3a462258}{real\-Rotate} ()}\label{classcsad_1_1_transform_a3e01bf3696fe5e7387ab989e3a462258}
+
+\begin{DoxyCompactList}\small\item\em returns the real razvorot object \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a04118ba35a24790340f4ccb485d574a7}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classbt_1_1vector3f}{vector3f} $\ast$ \hyperlink{classcsad_1_1_transform_a04118ba35a24790340f4ccb485d574a7}{real\-Scale} ()}\label{classcsad_1_1_transform_a04118ba35a24790340f4ccb485d574a7}
+
+\begin{DoxyCompactList}\small\item\em returns the real scale \end{DoxyCompactList}\item 
+virtual void \hyperlink{classcsad_1_1_transform_a5fce29724a5e26c3fab77c2546957f9a}{set\-Child\-Real} (\hyperlink{classcsad_1_1_transform}{Transform} $\ast$transform)=0
+\item 
+virtual void \hyperlink{classcsad_1_1_transform_a4931301d16d9cd801bdfc14c2b0b9dd7}{set\-Parent\-Real} (\hyperlink{classcsad_1_1_transform}{Transform} $\ast$transform)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_a8c0308fb4a1103cb8a263edb3d056346}{set\-Position} (double x, double y, double z)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_acae94f7cc01c1624c1b92b23038ff73a}{set\-Position} (\hyperlink{classbt_1_1vector3d}{vector3d} \&pos)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_af4dfd9ed7eeb7047080f4d3e7bc09bdb}{set\-Position} (const \hyperlink{classbt_1_1vector3d}{vector3d} \&pos)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_af7804a2ba14b15d241049156123bd49f}{set\-Rotate} (const \hyperlink{classbt_1_1quaterniond}{quaterniond} \&\-\_\-rotate)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_ab6dec9e170dbbea0fae84ff439546e54}{set\-Scale} (float x, float y, float z)=0
+\item 
+virtual \hyperlink{classcsad_1_1_transform}{Transform} \& \hyperlink{classcsad_1_1_transform_a068d783bb86fa953143a6fb0b4ef95a1}{set\-Scale} (const \hyperlink{classbt_1_1vector3f}{vector3f} \&\-\_\-scale)=0
+\item 
+\hypertarget{classcsad_1_1_transform_a4369d7af34c97abebb107af66b2a55c3}{virtual void \hyperlink{classcsad_1_1_transform_a4369d7af34c97abebb107af66b2a55c3}{set\-Selected} (bool)=0}\label{classcsad_1_1_transform_a4369d7af34c97abebb107af66b2a55c3}
+
+\begin{DoxyCompactList}\small\item\em specifies a choice object. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a7b1ec977c3632a2109677b5d4e891b7b}{virtual void \hyperlink{classcsad_1_1_transform_a7b1ec977c3632a2109677b5d4e891b7b}{set\-Sprite} (bool)=0}\label{classcsad_1_1_transform_a7b1ec977c3632a2109677b5d4e891b7b}
+
+\begin{DoxyCompactList}\small\item\em the reversal of the object relative to the camera. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_transform_a124a674bcb2d3c0147d713d64e90a17c}{virtual void \hyperlink{classcsad_1_1_transform_a124a674bcb2d3c0147d713d64e90a17c}{set\-Visible} (bool)=0}\label{classcsad_1_1_transform_a124a674bcb2d3c0147d713d64e90a17c}
+
+\begin{DoxyCompactList}\small\item\em sets the object visible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_transform}{Transform} -\/ a key element of the environment specifies the position of the object. 
+
+Object allows you to organize position and recalculation of coordinates for building orientation of the object relative to the calculation point. This allows to minimize, and in some cases eliminate, the loss of accuracy.
+
+For description in the configuration\-: \begin{DoxyVerb}  <Scene name="myScene">
+    <Transform name="the name of the transform" pos="x y z of position" rot="x y z and angle rotation" scale="x y z of scale">
+      ... internal objects or components ...
+    </Transform>
+  </Scene>
+* \end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__scene}{csad\-: scene} \hyperlink{classcsad_1_1_scene}{Scene} \hyperlink{classcsad_1_1_container_components}{Container\-Components} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcsad_1_1_transform_acc5f53fea600a3a528dfd2b92eb941ab}{\index{csad\-::\-Transform@{csad\-::\-Transform}!Child@{Child}}
+\index{Child@{Child}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{Child}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}$\ast$ csad\-::\-Transform\-::\-Child (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_acc5f53fea600a3a528dfd2b92eb941ab}
+returns child objects by id. 
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ is a position object in child list; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_a5fce29724a5e26c3fab77c2546957f9a}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Child\-Real@{set\-Child\-Real}}
+\index{set\-Child\-Real@{set\-Child\-Real}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Child\-Real}]{\setlength{\rightskip}{0pt plus 5cm}virtual void csad\-::\-Transform\-::set\-Child\-Real (
+\begin{DoxyParamCaption}
+\item[{{\bf Transform} $\ast$}]{transform}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_a5fce29724a5e26c3fab77c2546957f9a}
+recalculation of the actual point down the hierarchy of objects 
+\begin{DoxyParams}{Parameters}
+{\em transform} & -\/ the object on which is made recalculation. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_a4931301d16d9cd801bdfc14c2b0b9dd7}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Parent\-Real@{set\-Parent\-Real}}
+\index{set\-Parent\-Real@{set\-Parent\-Real}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Parent\-Real}]{\setlength{\rightskip}{0pt plus 5cm}virtual void csad\-::\-Transform\-::set\-Parent\-Real (
+\begin{DoxyParamCaption}
+\item[{{\bf Transform} $\ast$}]{transform}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_a4931301d16d9cd801bdfc14c2b0b9dd7}
+recalculation real coordinates up and down the hierarchy of objects 
+\begin{DoxyParams}{Parameters}
+{\em transform} & -\/ the object on which is made recalculation. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_a8c0308fb4a1103cb8a263edb3d056346}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_a8c0308fb4a1103cb8a263edb3d056346}
+sets the position of the object 
+\begin{DoxyParams}{Parameters}
+{\em x,y,z} & -\/ coordinates relative to the coordinate system of the parent object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_acae94f7cc01c1624c1b92b23038ff73a}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{{\bf vector3d} \&}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_acae94f7cc01c1624c1b92b23038ff73a}
+sets the position of the object 
+\begin{DoxyParams}{Parameters}
+{\em pos} & -\/ coordinates relative to the coordinate system of the parent object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_af4dfd9ed7eeb7047080f4d3e7bc09bdb}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector3d} \&}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_af4dfd9ed7eeb7047080f4d3e7bc09bdb}
+sets the position of the object 
+\begin{DoxyParams}{Parameters}
+{\em pos} & -\/ coordinates relative to the coordinate system of the parent object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_af7804a2ba14b15d241049156123bd49f}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Rotate@{set\-Rotate}}
+\index{set\-Rotate@{set\-Rotate}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Rotate}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Rotate (
+\begin{DoxyParamCaption}
+\item[{const {\bf quaterniond} \&}]{\-\_\-rotate}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_af7804a2ba14b15d241049156123bd49f}
+sets the reversal of the object 
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-rotate} & -\/ quaternion razvorot relation to the position of the parent object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_ab6dec9e170dbbea0fae84ff439546e54}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Scale@{set\-Scale}}
+\index{set\-Scale@{set\-Scale}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Scale (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_ab6dec9e170dbbea0fae84ff439546e54}
+sets the scale of the object 
+\begin{DoxyParams}{Parameters}
+{\em x,y,z} & -\/ the scale of the axes relative to the scale of the parent object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsad_1_1_transform_a068d783bb86fa953143a6fb0b4ef95a1}{\index{csad\-::\-Transform@{csad\-::\-Transform}!set\-Scale@{set\-Scale}}
+\index{set\-Scale@{set\-Scale}!csad::Transform@{csad\-::\-Transform}}
+\subsubsection[{set\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Transform}\& csad\-::\-Transform\-::set\-Scale (
+\begin{DoxyParamCaption}
+\item[{const {\bf vector3f} \&}]{\-\_\-scale}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classcsad_1_1_transform_a068d783bb86fa953143a6fb0b4ef95a1}
+sets the scale of the object 
+\begin{DoxyParams}{Parameters}
+{\em pos} & -\/ the scale relative to the scale of the parent object \\
+\hline
+\end{DoxyParams}

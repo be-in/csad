@@ -1,0 +1,119 @@
+\hypertarget{classcsad_1_1_camera}{\section{csad\-:\-:Camera Class Reference}
+\label{classcsad_1_1_camera}\index{csad\-::\-Camera@{csad\-::\-Camera}}
+}
+
+
+\hyperlink{classcsad_1_1_camera}{Camera} -\/ component defines the projection matrix of points \hyperlink{classcsad_1_1_transform}{Transform} into a point Target.  
+
+
+Inheritance diagram for csad\-:\-:Camera\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classcsad_1_1_camera}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_camera_ad2e3a823499909d9d4970aad87f06221}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_camera_ad2e3a823499909d9d4970aad87f06221}{clear\-Color} ()}\label{classcsad_1_1_camera_ad2e3a823499909d9d4970aad87f06221}
+
+\begin{DoxyCompactList}\small\item\em Return true if color frame have the background. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a8d663d371fc45973754cd34298021260}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_camera_a8d663d371fc45973754cd34298021260}{clear\-Depth} ()}\label{classcsad_1_1_camera_a8d663d371fc45973754cd34298021260}
+
+\begin{DoxyCompactList}\small\item\em Return true if depth frame cleanning before render. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_af2885672eda9f42ed2fd0057fc0b692a}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_camera_af2885672eda9f42ed2fd0057fc0b692a}{cull\-Face} ()}\label{classcsad_1_1_camera_af2885672eda9f42ed2fd0057fc0b692a}
+
+\begin{DoxyCompactList}\small\item\em return state \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a78f6b71f2fddeb774cb22c361b03fc97}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E bool \hyperlink{classcsad_1_1_camera_a78f6b71f2fddeb774cb22c361b03fc97}{front\-Face} ()}\label{classcsad_1_1_camera_a78f6b71f2fddeb774cb22c361b03fc97}
+
+\begin{DoxyCompactList}\small\item\em return state \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_ace0dd65d8658ff3dc1dd37602243c71a}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E double \hyperlink{classcsad_1_1_camera_ace0dd65d8658ff3dc1dd37602243c71a}{get\-Fov} ()}\label{classcsad_1_1_camera_ace0dd65d8658ff3dc1dd37602243c71a}
+
+\begin{DoxyCompactList}\small\item\em Return the angle of view or the frame size. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a88294fd2c5d1fa031f2bb3b8313324f3}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E double \hyperlink{classcsad_1_1_camera_a88294fd2c5d1fa031f2bb3b8313324f3}{get\-Max\-Range} ()}\label{classcsad_1_1_camera_a88294fd2c5d1fa031f2bb3b8313324f3}
+
+\begin{DoxyCompactList}\small\item\em Return distance of far clipping plane. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a3c0b05f05093921f11ac61d03aa6ec3d}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E double \hyperlink{classcsad_1_1_camera_a3c0b05f05093921f11ac61d03aa6ec3d}{get\-Min\-Range} ()}\label{classcsad_1_1_camera_a3c0b05f05093921f11ac61d03aa6ec3d}
+
+\begin{DoxyCompactList}\small\item\em Return distance of near clipping plane. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a02bda0f3de8b0bff0832e1497d4da9c4}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E unsigned int \hyperlink{classcsad_1_1_camera_a02bda0f3de8b0bff0832e1497d4da9c4}{get\-Proj} ()}\label{classcsad_1_1_camera_a02bda0f3de8b0bff0832e1497d4da9c4}
+
+\begin{DoxyCompactList}\small\item\em Return model projection. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a46822b3370620e607b16fdc90464cb28}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_scene}{Scene} $\ast$ \hyperlink{classcsad_1_1_camera_a46822b3370620e607b16fdc90464cb28}{get\-Scene} ()}\label{classcsad_1_1_camera_a46822b3370620e607b16fdc90464cb28}
+
+\begin{DoxyCompactList}\small\item\em The environment belongs to the camera. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a84500df7c9acb978dd957fdb69cc481f}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classbt_1_1vector4f}{vector4f} \hyperlink{classcsad_1_1_camera_a84500df7c9acb978dd957fdb69cc481f}{get\-View\-Port} ()}\label{classcsad_1_1_camera_a84500df7c9acb978dd957fdb69cc481f}
+
+\begin{DoxyCompactList}\small\item\em Returns the position and dimensions of the window display, in percent. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_aa99f6cef6f085590aede1b6f158db1d7}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classbt_1_1vector4i}{vector4i} \hyperlink{classcsad_1_1_camera_aa99f6cef6f085590aede1b6f158db1d7}{get\-View\-Port} (\hyperlink{classcsad_1_1_gl_context}{Gl\-Context} $\ast$context)}\label{classcsad_1_1_camera_aa99f6cef6f085590aede1b6f158db1d7}
+
+\begin{DoxyCompactList}\small\item\em Returns the position and dimensions of the display window, in pixels. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a8bc7d426bf9cd731d6bd0818082dde34}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classbt_1_1vector4i}{vector4i} \hyperlink{classcsad_1_1_camera_a8bc7d426bf9cd731d6bd0818082dde34}{get\-View\-Port} (\hyperlink{classcsad_1_1_display}{Display} $\ast$display)}\label{classcsad_1_1_camera_a8bc7d426bf9cd731d6bd0818082dde34}
+
+\begin{DoxyCompactList}\small\item\em Returns the position and dimensions of the display window, in pixels. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_ae48f1f5d3baaacf1a1b793e45c2389c1}{C\-S\-A\-D\-\_\-\-A\-P\-I bool \hyperlink{classcsad_1_1_camera_ae48f1f5d3baaacf1a1b793e45c2389c1}{make\-Current} (unsigned int to\-Texture\-Id=0)}\label{classcsad_1_1_camera_ae48f1f5d3baaacf1a1b793e45c2389c1}
+
+\begin{DoxyCompactList}\small\item\em Setting projection matrix. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a59dd6f411c4fd88191751842cc963f9d}{C\-S\-A\-D\-\_\-\-A\-P\-I bool \hyperlink{classcsad_1_1_camera_a59dd6f411c4fd88191751842cc963f9d}{make\-Current} (\hyperlink{classbt_1_1vector4i}{vector4i} \&rect, unsigned int to\-Texture\-Id=0)}\label{classcsad_1_1_camera_a59dd6f411c4fd88191751842cc963f9d}
+
+\begin{DoxyCompactList}\small\item\em Setting projection matrices, and the region's display. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a0e4c86b157f37298499a7af6d9ae9cd9}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classbt_1_1matrix4f}{matrix4f} $\ast$ \hyperlink{classcsad_1_1_camera_a0e4c86b157f37298499a7af6d9ae9cd9}{proj\-Matrix} ()}\label{classcsad_1_1_camera_a0e4c86b157f37298499a7af6d9ae9cd9}
+
+\begin{DoxyCompactList}\small\item\em returns the projection matrix. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a0ca732a715c6dac01e00620123327409}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_camera_a0ca732a715c6dac01e00620123327409}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_camera_a0ca732a715c6dac01e00620123327409}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_af5c035da21ccd3604305ecf1539a434e}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_camera_af5c035da21ccd3604305ecf1539a434e}{set\-Clear\-Color} (bool is)}\label{classcsad_1_1_camera_af5c035da21ccd3604305ecf1539a434e}
+
+\begin{DoxyCompactList}\small\item\em Specifies whether frame to have the background, the performance is better off. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_aa8c89f2ac7bfbb0e2f5380bd58fa74b8}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_aa8c89f2ac7bfbb0e2f5380bd58fa74b8}{set\-Color} (float r, float g, float b, float w)}\label{classcsad_1_1_camera_aa8c89f2ac7bfbb0e2f5380bd58fa74b8}
+
+\begin{DoxyCompactList}\small\item\em Sets the color of the background, automatically includes the background. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a7e212777db0eba5791e9bdc17a9f1e1c}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_a7e212777db0eba5791e9bdc17a9f1e1c}{set\-Color} (\hyperlink{classbt_1_1vector4f}{vector4f} \&color)}\label{classcsad_1_1_camera_a7e212777db0eba5791e9bdc17a9f1e1c}
+
+\begin{DoxyCompactList}\small\item\em Sets the color of the background, automatically includes the background. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_ad56a98a01c19be324ed7e9f6dc94b88c}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_camera_ad56a98a01c19be324ed7e9f6dc94b88c}{set\-Cull\-Face} (bool is)}\label{classcsad_1_1_camera_ad56a98a01c19be324ed7e9f6dc94b88c}
+
+\begin{DoxyCompactList}\small\item\em set true if need back of front face hide \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a59f0490c8eef4fe181ecdb19f59640bb}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_a59f0490c8eef4fe181ecdb19f59640bb}{set\-Depth} (double val)}\label{classcsad_1_1_camera_a59f0490c8eef4fe181ecdb19f59640bb}
+
+\begin{DoxyCompactList}\small\item\em Sets the value of the depth. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a06aab87cdd1c891cf02918adcff10d96}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_a06aab87cdd1c891cf02918adcff10d96}{set\-Fov} (double \-\_\-ov)}\label{classcsad_1_1_camera_a06aab87cdd1c891cf02918adcff10d96}
+
+\begin{DoxyCompactList}\small\item\em Depending on the model projection sets the angle of view or the frame size. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_aa65e2c0df44a14cc545fedfbd010baba}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E void \hyperlink{classcsad_1_1_camera_aa65e2c0df44a14cc545fedfbd010baba}{set\-Front\-Face} (bool is)}\label{classcsad_1_1_camera_aa65e2c0df44a14cc545fedfbd010baba}
+
+\begin{DoxyCompactList}\small\item\em set true if need front face show \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a493003b12fbba2386cba0a98ee827a40}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_a493003b12fbba2386cba0a98ee827a40}{set\-Max\-Range} (double max)}\label{classcsad_1_1_camera_a493003b12fbba2386cba0a98ee827a40}
+
+\begin{DoxyCompactList}\small\item\em Specifies the far clipping plane. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_a2c8267221b07ae03a670c69121ca090c}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_a2c8267221b07ae03a670c69121ca090c}{set\-Min\-Range} (double min)}\label{classcsad_1_1_camera_a2c8267221b07ae03a670c69121ca090c}
+
+\begin{DoxyCompactList}\small\item\em Specifies near clipping. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_ab2ea58997abbbd2b394397227c101595}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_ab2ea58997abbbd2b394397227c101595}{set\-Proj} (unsigned int proj)}\label{classcsad_1_1_camera_ab2ea58997abbbd2b394397227c101595}
+
+\begin{DoxyCompactList}\small\item\em Sets the model projection of this promising (Camera\-::\-Perspective) or orthogonal (Camera\-::\-Ortographic) \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_camera_aa5f97dd128f03939dfe3f57ced8bd749}{C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} \& \hyperlink{classcsad_1_1_camera_aa5f97dd128f03939dfe3f57ced8bd749}{set\-View\-Port} (\hyperlink{classbt_1_1vector4f}{vector4f} $\ast$viewport)}\label{classcsad_1_1_camera_aa5f97dd128f03939dfe3f57ced8bd749}
+
+\begin{DoxyCompactList}\small\item\em Sets the aspect ratio and position of the window in\% from the actual size of the context. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_camera_ae5b4cbfae3b97dd1aa3ba315c5a13f2a}{static C\-S\-A\-D\-\_\-\-A\-P\-I \hyperlink{classcsad_1_1_camera}{Camera} $\ast$ \hyperlink{classcsad_1_1_camera_ae5b4cbfae3b97dd1aa3ba315c5a13f2a}{finder} (char $\ast$path)}\label{classcsad_1_1_camera_ae5b4cbfae3b97dd1aa3ba315c5a13f2a}
+
+\begin{DoxyCompactList}\small\item\em returns the camera in the specified path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_camera}{Camera} -\/ component defines the projection matrix of points \hyperlink{classcsad_1_1_transform}{Transform} into a point Target. 
+
+For description in the configuration\-: \begin{DoxyVerb}  <Transform name="the name of the scene">
+      <Camera fov="45" min="near plane" max="far plane" color="back color clean" depth="value for clean" cullface="" viewport="view rect"/>
+  </Transform>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classcsad_1_1_transform}{Transform}, \hyperlink{group__scene}{csad\-: scene} 
+\end{DoxySeeAlso}

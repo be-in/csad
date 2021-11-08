@@ -1,0 +1,39 @@
+\hypertarget{classcsad_1_1_s_g_button}{\section{csad\-:\-:S\-G\-Button Class Reference}
+\label{classcsad_1_1_s_g_button}\index{csad\-::\-S\-G\-Button@{csad\-::\-S\-G\-Button}}
+}
+
+
+\hyperlink{classcsad_1_1_s_g_button}{S\-G\-Button} -\/ component, which is the controller buttons, defines the characteristics of the image and manages events.  
+
+
+Inheritance diagram for csad\-:\-:S\-G\-Button\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=6.000000cm]{classcsad_1_1_s_g_button}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_s_g_button_a7b51182ae7fbbd76e887cf6fed241f83}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_s_g_button_a7b51182ae7fbbd76e887cf6fed241f83}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_s_g_button_a7b51182ae7fbbd76e887cf6fed241f83}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_s_g_button}{S\-G\-Button} -\/ component, which is the controller buttons, defines the characteristics of the image and manages events. 
+
+To handle events keys, you must install a handler recipient using the \hyperlink{classcsad_1_1_s_g_element_a1a8aaf98a4fb6960e00365000b44bff9}{S\-G\-Button\-::set\-Receiver}. Event processing is performed in the method \hyperlink{classcsad_1_1_base_object_aa8d3a855874527b14a5c56f629789b1f}{Base\-Object\-::set} when the parameter id==\hyperlink{classcsad_1_1_base_object_a27d9db492c1a385aa4086da1824e2737a1ad754d1312e455b8585419a33bba1bf}{Base\-Object\-::\-S\-E\-L\-E\-C\-T}, and the second parameter contains a pointer to the component type \hyperlink{classcsad_1_1_s_g_button}{S\-G\-Button}. This can be any object of a class inherited from the \hyperlink{classcsad_1_1_base_object}{Base\-Object} class or his descendants.
+
+For description in the configuration\-: \begin{DoxyVerb}  <Scene name="myKeyScene">
+    <Transform name="name of the button" pos="0 0 0" scale="0.1 0.1 0.1">
+      <SGButton size="0.1 0.05 0" text="key text" style="buttonstyle"/>
+    </Transform>
+  </Scene>
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__scenegui}{csad\-: gui}, \hyperlink{classcsad_1_1_style}{Style}, \hyperlink{classcsad_1_1_text_style}{Text\-Style}, \hyperlink{classcsad_1_1_s_g_button_style}{S\-G\-Button\-Style}, \hyperlink{classcsad_1_1_base_object}{Base\-Object} 
+\end{DoxySeeAlso}

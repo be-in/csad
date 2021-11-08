@@ -1,0 +1,99 @@
+\hypertarget{classcsad_1_1_component}{\section{csad\-:\-:Component Class Reference}
+\label{classcsad_1_1_component}\index{csad\-::\-Component@{csad\-::\-Component}}
+}
+
+
+\hyperlink{classcsad_1_1_component}{Component} -\/ a component is a unique part of the object may not have a name, and to exist independently.  
+
+
+Inheritance diagram for csad\-:\-:Component\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classcsad_1_1_component}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcsad_1_1_component_ac35c5ad8712eb403c8bbc3c765f823b8}{{\footnotesize template$<$typename T $>$ }\\\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T $\ast$ \hyperlink{classcsad_1_1_component_ac35c5ad8712eb403c8bbc3c765f823b8}{add\-Component} ()}\label{classcsad_1_1_component_ac35c5ad8712eb403c8bbc3c765f823b8}
+
+\begin{DoxyCompactList}\small\item\em Add component of the specified type in the container if this component already exists, returns available. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_a3ec7ad4398b3b793561d84a7c3a3eef6}{{\footnotesize template$<$typename T $>$ }\\\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T $\ast$ \hyperlink{classcsad_1_1_component_a3ec7ad4398b3b793561d84a7c3a3eef6}{get\-Component} ()}\label{classcsad_1_1_component_a3ec7ad4398b3b793561d84a7c3a3eef6}
+
+\begin{DoxyCompactList}\small\item\em Returns the component of the given type, if it is not in a container returns 0. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_a00511e79db1c90f291e17b87c7e62696}{\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E \hyperlink{classcsad_1_1_container_components}{Container\-Components} $\ast$ \hyperlink{classcsad_1_1_component_a00511e79db1c90f291e17b87c7e62696}{get\-Container} ()}\label{classcsad_1_1_component_a00511e79db1c90f291e17b87c7e62696}
+
+\begin{DoxyCompactList}\small\item\em Returns the container in which the component. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_ac5408f7b7ebe3b6b2141d4c7fb8146fe}{{\footnotesize template$<$typename T $>$ }\\\-\_\-\-F\-O\-R\-C\-E\-I\-N\-L\-I\-N\-E T $\ast$ \hyperlink{classcsad_1_1_component_ac5408f7b7ebe3b6b2141d4c7fb8146fe}{get\-Container} ()}\label{classcsad_1_1_component_ac5408f7b7ebe3b6b2141d4c7fb8146fe}
+
+\begin{DoxyCompactList}\small\item\em Returns the container in which the component, if the container does not match the given type 0 is returned. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_a909c9fe50842ee5fbffee7cb5dde749b}{virtual C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_component_a909c9fe50842ee5fbffee7cb5dde749b}{quit} ()}\label{classcsad_1_1_component_a909c9fe50842ee5fbffee7cb5dde749b}
+
+\begin{DoxyCompactList}\small\item\em The event is called before the program exits. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_ad226c8f6c34ec780aaaedd087579ef0b}{C\-S\-A\-D\-\_\-\-A\-P\-I void $\ast$ \hyperlink{classcsad_1_1_component_ad226c8f6c34ec780aaaedd087579ef0b}{set} (unsigned \-\_\-int32, void $\ast$)}\label{classcsad_1_1_component_ad226c8f6c34ec780aaaedd087579ef0b}
+
+\begin{DoxyCompactList}\small\item\em used for any interface commands. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_a79c83fa75a1ba6b6c3c53c8449ab14bb}{virtual C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_component_a79c83fa75a1ba6b6c3c53c8449ab14bb}{start} ()}\label{classcsad_1_1_component_a79c83fa75a1ba6b6c3c53c8449ab14bb}
+
+\begin{DoxyCompactList}\small\item\em This event is fired after the program start. \end{DoxyCompactList}\item 
+\hypertarget{classcsad_1_1_component_a3e34aeff7ea26d56265237cbcf7a050c}{virtual C\-S\-A\-D\-\_\-\-A\-P\-I void \hyperlink{classcsad_1_1_component_a3e34aeff7ea26d56265237cbcf7a050c}{update} ()}\label{classcsad_1_1_component_a3e34aeff7ea26d56265237cbcf7a050c}
+
+\begin{DoxyCompactList}\small\item\em This event is fired before rendering environment container component. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static C\-S\-A\-D\-\_\-\-A\-P\-I int \hyperlink{classcsad_1_1_component_ac36baa797370264fac2a0dca02eb00d8}{reg\-Class} (const char $\ast$name, const void $\ast$info, tf\-S\-T\-D\-C\-A\-L\-L\-\_\-p\-\_\-\-F\-U\-N\-C\-\_\-p fun)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{classcsad_1_1_component}{Component} -\/ a component is a unique part of the object may not have a name, and to exist independently. 
+
+The component has a pointer to the container to which it belongs.
+
+To register the component class there are two ways. To register in the module\-: \begin{DoxyVerb}  REG_COMPONENT(SomeClass)
+\end{DoxyVerb}
+
+
+To register the application\-: \begin{DoxyVerb}  COMPONENT_CLASS(SomeClass)
+
+  void InitClass()
+  {
+     INIT_COMPONENT(SomeClass)
+  }
+
+  void main()
+  {
+     ...
+     csadStart();
+     InitClass();
+     ...
+  }
+\end{DoxyVerb}
+
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{group__core}{csad\-: core} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcsad_1_1_component_ac36baa797370264fac2a0dca02eb00d8}{\index{csad\-::\-Component@{csad\-::\-Component}!reg\-Class@{reg\-Class}}
+\index{reg\-Class@{reg\-Class}!csad::Component@{csad\-::\-Component}}
+\subsubsection[{reg\-Class}]{\setlength{\rightskip}{0pt plus 5cm}static C\-S\-A\-D\-\_\-\-A\-P\-I int csad\-::\-Component\-::reg\-Class (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{name, }
+\item[{const void $\ast$}]{info, }
+\item[{tf\-S\-T\-D\-C\-A\-L\-L\-\_\-p\-\_\-\-F\-U\-N\-C\-\_\-p}]{fun}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcsad_1_1_component_ac36baa797370264fac2a0dca02eb00d8}
+Registers the component class 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ the class name of the component \\
+\hline
+{\em info} & -\/ the class identifier \\
+\hline
+{\em fun} & -\/ the class constructor \\
+\hline
+\end{DoxyParams}
