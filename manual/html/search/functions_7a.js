@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['zero',['zero',['../classbt_1_1vector2d.html#a1962d5f5c4e48a9059f73e338926e5e4',1,'bt::vector2d::zero()'],['../classbt_1_1vector2f.html#a2659423a36ad53a960e8863f65f8dd33',1,'bt::vector2f::zero()'],['../classbt_1_1vector2i.html#a8a8a7f3f19c90c5c93434ebdd3dd83cc',1,'bt::vector2i::zero()'],['../classbt_1_1vector3d.html#af2804ef23e02d4069280513de148868e',1,'bt::vector3d::zero()'],['../classbt_1_1vector3f.html#a8aa699dea5609aa06a7895966ad9309d',1,'bt::vector3f::zero()'],['../classbt_1_1vector3i.html#a4cc45ec50844af57ca58eb1f08dc4040',1,'bt::vector3i::zero()'],['../classbt_1_1vector4d.html#abf3aef3e9705726c9ce8b07d96bab815',1,'bt::vector4d::zero()'],['../classbt_1_1vector4f.html#a329fe59e209dfbb0f7fcf4669cfc80a4',1,'bt::vector4f::zero()'],['../classbt_1_1vector4i.html#aa73e694e66c679ba678351c187585d1e',1,'bt::vector4i::zero()']]]
-];

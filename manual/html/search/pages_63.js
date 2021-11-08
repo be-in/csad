@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['complex_20software_20application_20developer_20_28_d0_9a_d0_be_d0_bc_d0_bf_d0_bb_d0_b5_d0_ba_d1_81_20_d0_bf_d1_80_d0_be_d0_b3_d1_80_d0_b0_d0_bc_d0_bc_d0_bd_d0_be_d0_b3_d0_be_20_d0_be_d0_b1_d0_b5_d1_81_d0_bf_d0_b5_d1_87_d0_b5_d0_bd_d0_b8_d1_8f_20_d1_80_d0_b0_d0_b7_d1_80_d0_b0_d0_b1_d0_be_d1_82_d1_87_d0_b8_d0_ba_d0_b0_20_d0_bf_d1_80_d0_b8_d0_bb_d0_be_d0_b6_d0_b5_d0_bd_d0_b8_d0_b9_29',['Complex software application developer (Комплекс программного обеспечения разработчика приложений)',['../index.html',1,'']]]
-];
